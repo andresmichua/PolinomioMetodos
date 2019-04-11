@@ -74,5 +74,31 @@ public class Metodos {
             System.out.println(resultado1 + "-" + resultado2 + "i");
 
         }
+        
     }
+     public void cuandoAEsIgualAUno(float a, float b, float c){
+    	float p1 = -(b/2);
+    	float p2 = (b*b/4)-c;
+    	float p3 = (float) Math.sqrt(p2);
+        float positivo= p1 + p3;
+        float negativo= p1 - p3;
+    	System.out.println("Primer Raiz: "+positivo);
+    	System.out.println("Segunda raiz "+negativo);
+    }
+    
+    public void cuandoBesCero(float a, float b, float c) {
+    	float resultado;
+    	resultado= (float) Math.sqrt((-c/a));
+    	System.out.println("Primer Raiz"+ "+"+resultado);
+    	System.out.println("Segunda Raiz"+ "-"+resultado);
+    }
+    
+    public void cuandoCescero(float a, float b, float c) {
+    	float primer,segunda;
+    	primer = (-b+(float)Math.sqrt(b))/(2*a);
+    	segunda = (-b-(float)Math.sqrt(b))/(2*a);
+    	System.out.println("Primer Raiz"+ primer);
+    	System.out.println("Segunda Raiz"+ segunda);
+    }
+
 }
