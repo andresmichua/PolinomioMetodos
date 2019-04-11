@@ -1,0 +1,79 @@
+﻿Nombre                                                                                                                                                  
+
+BinomioYSusCeros.java
+
+Realizar un programa que permita calcular las raices de un polinomio de forma ax^2+bx+c, obteniendo los valores mediante stdin que sean pertenecientes a los numeros reales y donde a sea diferente a 0, obteniendo en primer lugar el discriminante para obtener uno de los 3 posibles casos y mostrar el sesultado mediante stdout
+ 
+
+Sinopsis
+
+1.- El usuario inegresara tres valores numericos que seran guardados en variables diferentes como:
+a, b, y c respectivamente.
+2.- Los valores ingresados se usaran en el primer metodo "discriminante" el cual resolvera la operacion de la forma
+	b^2-4ac.
+3.- El programa mostrara en pantalla el valor del discriminantes y señalara a cual de los tres casos pertenece.
+4.- Los mismos valores numericos ingresados por el usuario se usaran en el metodo calculaRaiz el cual hace uso del resultado del discriminante para realizar las operaciones correspondientes.
+5.-Dependiendo del caso se realiza la operacion y el resultado se muestra en pantalla junto con los datos anteriormente resultantes del primer metodo
+
+
+Descripcion
+
+Este programa resuelve las raices de un polinomio mediante metodos que reciben cualquier numero mediante el estandar de entrada (teclado) mediante dos metodos dentro del programa
+
+
+Ejemplos
+
+usando los valores:
+1,2,3
+obtenemos lo siguiente en pantalla:
+
+Tipo de discriminante
+Tipo 3: No tiene raices reales
+-8
+Primer raiz
+-1.0+1.4142135i
+Segunda raiz raiz
+-1.0-1.4142135i
+
+si los valores son
+2,12,3
+obtenemos lo siguiente:
+
+Tipo de discriminante
+Tipo 1: Existen dos raices distintas
+1
+Primer Raiz
+-4.5
+Segunda Raiz
+-7.5
+
+
+Ver también 
+
+BinomioYSusCeros.txt
+BinomioYSusCeros.java
+
+Alcance y limitaciones
+
+Ingreso de datos
+Calculo del discriminante
+Clasificacion de los CASOS
+
+Bugs
+
+Es posible ingresar caracteres.
+
+Es posible acpetar maginutides de 0.
+
+Las operaciones cuando alguno de los valores son 0 no esta definidas
+ 
+
+Autor
+
+Hernandez Michua Andres
+
+Tel. Movil 5513932210
+
+Correo andriu.rost@gmail.com
+ 
+Direccion Los reyes la paz geovillas de san isidro.
