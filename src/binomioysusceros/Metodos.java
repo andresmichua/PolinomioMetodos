@@ -101,4 +101,11 @@ public class Metodos {
     	System.out.println("Segunda Raiz"+ segunda);
     }
 
+    public void cuandoByCEsCero(float a, float b, float c){
+        
+        float x=(float)Math.sqrt(a);
+        System.out.println("Primer raiz "+x);
+        System.out.println("Segunda Raiz "+"-"+x);
+        
+    }
 }

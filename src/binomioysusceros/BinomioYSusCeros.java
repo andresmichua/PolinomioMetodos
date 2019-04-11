@@ -52,6 +52,13 @@ public class BinomioYSusCeros {
     	met.cuandoBesCero(3, 0, -48);
     	met.cuandoBesCero(5, 0, -55);
         met.cuandoBesCero(7, 0, -14);
+        
+        
+        met.cuandoByCEsCero(3, 0, 0);
+        met.cuandoByCEsCero(24, 0, 0);
+        met.cuandoByCEsCero(32, 0, 0);
+        met.cuandoByCEsCero(18, 0, 0);
+        met.cuandoByCEsCero(9, 0, 0);
     }
 
 }
