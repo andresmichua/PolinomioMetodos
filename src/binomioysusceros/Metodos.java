@@ -76,6 +76,14 @@ public class Metodos {
         }
         
     }
+    /*este metodo  resuelve la operacion d ela forma
+    x^2+mn+n=0
+    donde se emplea la formula
+    x=-m/2+-sqrt(m^2/4 - n)
+    //@param a
+    //@param b
+    //@param c
+    */
      public void cuandoAEsIgualAUno(float a, float b, float c){
     	float p1 = -(b/2);
     	float p2 = (b*b/4)-c;
@@ -85,6 +93,14 @@ public class Metodos {
     	System.out.println("Primer Raiz: "+positivo);
     	System.out.println("Segunda raiz "+negativo);
     }
+     
+     /*
+     //@param a
+    //@param b
+    //@param c
+     se emplea la frmula
+     x=+- sqrt(-c/a)
+     */
     
     public void cuandoBesCero(float a, float b, float c) {
     	float resultado;
@@ -92,6 +108,14 @@ public class Metodos {
     	System.out.println("Primer Raiz"+ "+"+resultado);
     	System.out.println("Segunda Raiz"+ "-"+resultado);
     }
+    /*
+    //@param a
+    //@param b
+    //@param c
+    se obtiene la solucion a partir de:
+    x=(-b+sqrt(b))/2a y
+    x=(-b-sqrt(b))/2a 
+    */
     
     public void cuandoCescero(float a, float b, float c) {
     	float primer,segunda;
@@ -101,6 +125,12 @@ public class Metodos {
     	System.out.println("Segunda Raiz"+ segunda);
     }
 
+    /*
+    //@param a
+    //@param b
+    //@param c
+    se obtiene la raiz cuadrada de a
+    */
     public void cuandoByCEsCero(float a, float b, float c){
         
         float x=(float)Math.sqrt(a);
